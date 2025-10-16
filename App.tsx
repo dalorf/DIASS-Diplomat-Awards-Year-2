@@ -1,7 +1,7 @@
 
 import React, { useState, useCallback } from 'react';
-import Login from './components/Login';
-import Dashboard from './components/Dashboard';
+import Login from './components/Login.tsx';
+import Dashboard from './components/Dashboard.tsx';
 
 const App: React.FC = () => {
     const [isAuthenticated, setIsAuthenticated] = useState<boolean>(false);

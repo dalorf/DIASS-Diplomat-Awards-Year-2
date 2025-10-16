@@ -1,8 +1,8 @@
 
 import React, { useState, useMemo } from 'react';
-import type { CombinedStudentData } from '../types';
-import { formatTime, sanitizeInput } from '../utils/helpers';
-import SectionCard from './SectionCard';
+import type { CombinedStudentData } from '../types.ts';
+import { formatTime, sanitizeInput } from '../utils/helpers.ts';
+import SectionCard from './SectionCard.tsx';
 
 interface StudentsTableProps {
     students: CombinedStudentData[];

@@ -1,13 +1,13 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
-import { db, ref, onValue, off, set, remove, get } from '../services/firebase';
-import type { RegisteredStudent, StudentActivity, AllVotes, Stats, SecurityLog, CombinedStudentData } from '../types';
-import { CATEGORIES } from '../constants';
-import StatCard from './StatCard';
-import SecurityLogs from './SecurityLogs';
-import StudentsTable from './StudentsTable';
-import ResultsGrid from './ResultsGrid';
-import AddStudentModal from './AddStudentModal';
+import { db, ref, onValue, off, set, remove, get } from '../services/firebase.ts';
+import type { RegisteredStudent, StudentActivity, AllVotes, Stats, SecurityLog, CombinedStudentData } from '../types.ts';
+import { CATEGORIES } from '../constants.ts';
+import StatCard from './StatCard.tsx';
+import SecurityLogs from './SecurityLogs.tsx';
+import StudentsTable from './StudentsTable.tsx';
+import ResultsGrid from './ResultsGrid.tsx';
+import AddStudentModal from './AddStudentModal.tsx';
 
 interface DashboardProps {
     onLogout: () => void;

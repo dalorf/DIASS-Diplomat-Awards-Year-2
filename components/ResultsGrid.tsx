@@ -1,9 +1,9 @@
 
 import React from 'react';
-import type { AllVotes } from '../types';
-import { CATEGORIES } from '../constants';
-import { sanitizeInput } from '../utils/helpers';
-import SectionCard from './SectionCard';
+import type { AllVotes } from '../types.ts';
+import { CATEGORIES } from '../constants.ts';
+import { sanitizeInput } from '../utils/helpers.ts';
+import SectionCard from './SectionCard.tsx';
 
 interface ResultsGridProps {
     allVotes: AllVotes;

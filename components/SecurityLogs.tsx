@@ -1,8 +1,8 @@
 
 import React from 'react';
-import type { SecurityLog } from '../types';
-import { formatTime } from '../utils/helpers';
-import SectionCard from './SectionCard';
+import type { SecurityLog } from '../types.ts';
+import { formatTime } from '../utils/helpers.ts';
+import SectionCard from './SectionCard.tsx';
 
 interface SecurityLogsProps {
     logs: SecurityLog[];

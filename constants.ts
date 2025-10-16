@@ -1,6 +1,7 @@
 
 
-import type { Category } from './types';
+
+import type { Category } from './types.ts';
 
 export const MAX_ATTEMPTS = 3;
 export const LOCKOUT_TIME = 5 * 60 * 1000; // 5 minutes

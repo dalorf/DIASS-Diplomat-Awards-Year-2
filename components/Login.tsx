@@ -1,8 +1,8 @@
 
 import React, { useState, useEffect } from 'react';
-import { db, ref, get, set } from '../services/firebase';
-import { sanitizeInput, simpleHash } from '../utils/helpers';
-import { MAX_ATTEMPTS, LOCKOUT_TIME } from '../constants';
+import { db, ref, get, set } from '../services/firebase.ts';
+import { sanitizeInput, simpleHash } from '../utils/helpers.ts';
+import { MAX_ATTEMPTS, LOCKOUT_TIME } from '../constants.ts';
 
 interface LoginProps {
     onLoginSuccess: () => void;
