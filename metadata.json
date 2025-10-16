@@ -1,0 +1,5 @@
+{
+  "name": "Copy of Diploma Awards Admin Dashboard",
+  "description": "An admin dashboard to manage and monitor the Diploma 2 Awards voting process. It allows administrators to view live results, manage student lists, track security events, and control the voting status.",
+  "requestFramePermissions": []
+}
